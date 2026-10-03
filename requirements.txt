@@ -4,26 +4,14 @@ Flask-Login==0.6.3
 Flask-WTF==1.2.1
 Werkzeug==3.0.3
 SQLAlchemy==2.0.32
-eventlet==0.36.1
 python-dotenv==1.0.1
 Pillow==10.4.0
-PyJWT==2.9.0
-cryptography==43.0.0
 email-validator==2.2.0
-python-magic==0.4.27
-pywebpush==2.0.0
-gevent==24.2.1
-gevent-websocket==0.10.1
-gunicorn==22.0.0
-redis==5.0.8
-qrcode==7.4.2
 itsdangerous==2.2.0
-click==8.1.7
-blinker==1.8.2
 Jinja2==3.1.4
 MarkupSafe==2.1.5
-packaging==24.1
-six==1.16.0
+click==8.1.7
+blinker==1.8.2
 bidict==0.23.1
 python-engineio==4.9.1
 python-socketio==5.11.3
@@ -32,14 +20,8 @@ wsproto==1.2.0
 h11==0.14.0
 dnspython==2.6.1
 idna==3.7
-cffi==1.17.0
-pycparser==2.22
-pyasn1==0.6.0
-rsa==4.9
-http-ece==1.2.0
-py-vapid==1.9.0
-requests==2.32.3
-charset-normalizer==3.3.2
-urllib3==2.2.2
-certifi==2024.7.4
-pypng==0.20220715.0
+gunicorn==22.0.0
+# Optional: better WebSocket concurrency (skip if build fails)
+# eventlet==0.36.1
+# pywebpush==2.0.0
+# redis==5.0.8
