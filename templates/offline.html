@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - ESTACLE</title>
+  <link rel="stylesheet" href="/static/css/themes.css">
+  <style>
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 { color: var(--accent); letter-spacing: 2px; margin-bottom: 12px; }
+    p { color: var(--text-secondary); max-width: 360px; line-height: 1.6; }
+    button {
+      margin-top: 24px; padding: 12px 28px; background: var(--accent); color: white;
+      border: none; border-radius: 10px; font-size: 14px; font-weight: 500; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>ESTACLE</h1>
+    <p>You are currently offline. Please check your internet connection and try again.</p>
+    <button onclick="location.reload()">Retry</button>
+  </div>
+</body>
+</html>
